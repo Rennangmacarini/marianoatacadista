@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    --color-link: #FFF;
+    --color-hover-link:#2D2C2C;
+    --color-h1-about: #FF7A00;
+    --color-p-about: #373737;
+    --color-h3-about: #5CC892;
+    --color-h1-stores:#DD7534;
+    
+
+
+    --bg-body: #EAE8E8;
+
+    --bg-header:#E2AA87;
+    --bg-term:#AFD3C1;
+    --bg-container:#BFD6CA;
+    --bg-text-stores:#EAFFF4;
+
+}
+
+body {
+    background-color: var(--bg-body);
+}

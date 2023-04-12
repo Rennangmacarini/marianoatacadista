@@ -1,0 +1,215 @@
+.container {
+
+    .cardBanner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img:nth-child(1) {
+            margin-top: 3rem;
+            width: 100%;
+        }
+
+        img:nth-child(2) {
+            margin-top: -3rem;
+        }
+    }
+
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        margin: 3rem 0rem;
+
+        .text {
+            width: 400px;
+            background-color: var(--color-link);
+            padding: 1rem;
+            border-radius: 4px;
+
+            h1 {
+                font-size: 1.4rem;
+                margin: 1rem 0rem;
+                color: var(--color-h1-about);
+            }
+
+            p {
+                font-size: 1rem;
+                text-align: justify;
+                color: var(--color-p-about);
+            }
+        }
+
+        img {
+            border-radius: 8px;
+        }
+    }
+
+    .contentFirst {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        margin: 3rem 0rem;
+
+        .text {
+            width: 500px;
+            background-color: var(--color-link);
+            padding: 1rem;
+            border-radius: 4px;
+
+            h1 {
+                font-size: 1.4rem;
+                margin: 1rem 0rem;
+                color: var(--color-h1-about);
+            }
+
+            p {
+                font-size: 1rem;
+                text-align: justify;
+                color: var(--color-p-about);
+            }
+        }
+
+        img {
+            border-radius: 4px;
+        }
+    }
+
+    .contentEmpresa {
+        width: 500px;
+        margin: 5rem auto;
+
+        .title {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1rem;
+
+            margin: 0 auto;
+            background-color: var(--bg-term);
+
+            h2 {
+                color: var(--color-link);
+                font-size: 1.4rem;
+            }
+        }
+
+        .text {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-top: 3rem;
+
+            h3 {
+                font-size: 1.5rem;
+                color: var(--color-h3-about);
+            }
+        }
+
+        p {
+            color: var(--color-p-about);
+            font-size: 1.1rem;
+            text-align: justify;
+            margin: 0.5rem 0rem;
+        }
+    }
+}
+
+@media(max-width: 900px) {
+    .content {
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 600px) {
+    .container {
+        .contentFirst {
+            .text {
+                width: 400px;
+            }
+
+            img {
+                width: 400px;
+                height: 300px;
+                object-fit: cover;
+            }
+        }
+
+        .contentEmpresa {
+            width: 450px;
+        }
+    }
+}
+
+@media(max-width: 500px) {
+    .container {
+        .contentEmpresa {
+            width: 350px;
+        }
+    }
+}
+
+@media(max-width: 450px) {
+    .container {
+
+        .content {
+            .text {
+                width: 350px;
+            }
+
+            img {
+                width: 380px;
+            }
+        }
+
+
+        .contentFirst {
+            .text {
+                width: 380px;
+            }
+
+            img {
+                width: 380px;
+                height: 270px;
+            }
+        }
+    }
+}
+
+
+@media(max-width: 400px) {
+    .container {
+
+        .content {
+            .text {
+                width: 300px;
+            }
+
+            img {
+                width: 330px;
+            }
+        }
+
+
+        .contentFirst {
+            .text {
+                width: 330px;
+            }
+
+            img {
+                width: 330px;
+                height: 270px;
+            }
+        }
+
+        .contentEmpresa {
+            width: 330px;
+        }
+
+    }
+
+}

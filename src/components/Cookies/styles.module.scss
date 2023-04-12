@@ -1,0 +1,21 @@
+.cookies {
+    background-color: var(--bg-container);
+    padding: 1rem;
+    border-radius: 8px;
+
+    button{
+        background-color: black;
+    }
+      h1 {
+          font-size: 0.9rem;
+          line-height: 1.5rem;
+          color: black;
+
+          a {  
+              color: black;
+              padding: 0.3rem;
+              border-radius: 8px;
+              transition: 0.3s all;
+          }
+      }
+  }

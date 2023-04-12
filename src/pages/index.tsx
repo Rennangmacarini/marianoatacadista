@@ -7,6 +7,7 @@ import { Header } from "../components/Header";
 import { GetStaticProps } from "next";
 import { getPrismicClient } from "../services/prismic";
 import Prismic from "@prismicio/client";
+import { Cookie } from "../components/Cookies";
 
 type Posts = {
   id: string;
@@ -30,6 +31,7 @@ export default function Home({ posts }: PostProps) {
       <Video />
       <ContentHome />
       <Ofertas mariano={posts} />
+      <Cookie/>
       <Footer />
     </>
   );
@@ -59,12 +61,12 @@ export const getStaticProps: GetStaticProps = async () => {
     return {
       id: post.uid,
       marianoone: post.data.marianoone.url,
-      marianotwo: post.data.marianoone.url,
-      marianothree: post.data.marianoone.url,
-      marianofour: post.data.marianoone.url,
-      marianofive: post.data.marianoone.url,
-      marianosix: post.data.marianoone.url,
-      marianoseven: post.data.marianoone.url,
+      marianotwo: post.data.marianotwo.url,
+      marianothree: post.data.marianothree.url,
+      marianofour: post.data.marianofour.url,
+      marianofive: post.data.marianofive.url,
+      marianosix: post.data.marianosix.url,
+      marianoseven: post.data.marianoseven.url,
     };
   });
   return {

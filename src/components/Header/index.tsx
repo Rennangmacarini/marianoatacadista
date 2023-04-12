@@ -24,7 +24,7 @@ export function Header() {
           <Link href={"/"}>INÍCIO</Link>
           <Link href={"/about"}>QUEM SOMOS</Link>
           <Link href={"/stores"}>LOJAS</Link>
-          <Link href={"/"}>TRABALHE CONOSCO</Link>
+          <Link href="https://app.skeel.com.br/ivasko" target='_blank'>TRABALHE CONOSCO</Link>
         </div>
       </div>
 
@@ -33,7 +33,7 @@ export function Header() {
         <Link href={"/"}>INÍCIO</Link>
         <Link href={"/about"}>QUEM SOMOS</Link>
         <Link href={"/stores"}>LOJAS</Link>
-        <Link href={"/"}>TRABALHE CONOSCO</Link>
+        <Link href={"https://app.skeel.com.br/ivasko"}>TRABALHE CONOSCO</Link>
       </div>
       )}
     </>

@@ -22,6 +22,7 @@ import cartaomariano from "../../../public/icon/cartaomariano.png";
 import trio from "../../../public/icon/triocard.png";
 import cash from "../../../public/icon/cashberti.png";
 import money from "../../../public/icon/money.png";
+import Link from "next/link";
 
 export function Footer() {
   return (
@@ -31,23 +32,23 @@ export function Footer() {
           <div className={styles.cardIcon}>
             <h1>REDE SOCIAL</h1>
             <div className={styles.icon}>
-              <Image src={facebook} alt="" />
-              <Image src={instagram} alt="" />
-              <Image src={linkdin} alt="" />
+             <Link href='https://pt-br.facebook.com/marianoatacadista/' target='_blank'><Image src={facebook} alt="" /></Link> 
+             <Link href='https://www.instagram.com/marianoatacadista/' target='_blank'><Image src={instagram} alt="" /></Link>
+             <Link href='https://www.linkedin.com/company/grupoivasko/' target='_blank'><Image src={linkdin} alt="" /></Link>
             </div>
           </div>
 
           <div className={styles.cardIcon}>
             <h1>OUVIDORIA</h1>
             <div className={styles.icon}>
-              <Image src={email} alt="" />
+            <Link href='mailto:faleconosco@marianoatacadista.com.br' target='_blank'><Image src={email} alt="" /></Link>
             </div>
           </div>
 
           <div className={styles.cardIcon}>
             <h1>CONTATO LOJAS</h1>
             <div className={styles.icon}>
-              <Image src={whats} alt="" />
+            <Link href={"/stores"}><Image src={whats} alt="" /></Link>
             </div>
           </div>
         </div>
@@ -89,7 +90,7 @@ export function Footer() {
         </div>
 
         <div className={styles.term}>
-          <h1>TERMO DE POLITICA DE PRIVACIDADE</h1>
+          <Link href={'/privation'}>TERMO DE POLITICA DE PRIVACIDADE</Link>
         </div>
       </div>
     </>

@@ -1,0 +1,36 @@
+.container {
+    padding-top: 8rem;
+    text-align: center;
+
+    h1 {
+        font-size: 1.2rem;
+    }
+    
+    .content {
+        width: 500px;
+        margin: 0 auto;
+        text-align: justify;
+        font-size: 1rem;
+        background-color: var(--bg-container);
+        padding: 1rem;
+        margin-top: 2rem;
+        border-radius: 8px;
+    }
+}
+
+@media(max-width:600px){
+    .container {
+        .content {
+            width: 400px;
+        }
+    }
+}
+
+
+@media(max-width:500px){
+    .container {
+        .content {
+            width: 350px;
+        }
+    }
+}

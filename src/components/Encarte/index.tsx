@@ -1,13 +1,7 @@
 import * as React from "react";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
-
 import styles from "./styles.module.scss";
-import encarteOne from "../../../public/image/encarte-1.png";
-import encarteTwo from "../../../public/image/encarte-2.png";
-import encarteThree from "../../../public/image/encarte-3.png";
-import encarteFour from "../../../public/image/encarte-4.png";
-import Image from "next/image";
 
 type Post = {
   id: string;

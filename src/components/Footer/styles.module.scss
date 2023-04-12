@@ -47,9 +47,14 @@
         text-align: center;
         background-color: var(--bg-term);
 
-        h1 {
+        a {
             font-size: 1.4rem;
             color: var(--color-hover-link);
+            text-decoration: none;
+
+            &:hover{
+                color: black;
+            }
         }
     }
 
@@ -92,7 +97,7 @@
         }
 
         .term {
-            h1 {
+            a {
                 font-size: 1rem;
                 color: var(--color-hover-link);
             }
@@ -178,7 +183,7 @@
         }
 
         .term {
-            h1 {
+            a {
                 font-size: 12px;
             }
         }

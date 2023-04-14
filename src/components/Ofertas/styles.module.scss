@@ -1,0 +1,36 @@
+.Container {
+    text-align: center;
+    margin-top: 5rem;
+
+    h1 {
+        padding: 0.5rem 1rem;
+        width: 380px;
+        border-radius: 8px;
+        margin: 0 auto;
+        background-color: var(--color-h3-about) ;
+        color: var(--color-p-about);
+        font-size: 1.5rem;
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+
+        a {
+            margin-top: 3rem;
+            text-decoration: none;
+            width: 175px;
+            border-radius: 4px;
+            padding: 0.5rem 1rem;
+            background-color: var(--color-h3-about) ;
+            color: var(--color-p-about);
+            font-size: 0.8rem;
+
+            &:hover{
+                color: black;
+            }
+        }
+    }
+}

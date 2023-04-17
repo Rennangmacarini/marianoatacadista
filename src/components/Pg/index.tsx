@@ -30,6 +30,7 @@ export function Pg({ pg }: PostProps) {
             <h1>{post.pgtitle}</h1>
             </div>
         ))}
+        <img src={"/assets/arraste.png"} alt="" />
       </div>
 
       <div className={styles.carousel}>

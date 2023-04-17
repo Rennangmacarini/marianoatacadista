@@ -30,6 +30,7 @@ export function Sms({ sms }: PostProps) {
             <h1>{post.smstitle}</h1>
             </div>
         ))}
+        <img src={"/assets/arraste.png"} alt="" />
       </div>
 
       <div className={styles.carousel}>

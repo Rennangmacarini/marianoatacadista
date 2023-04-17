@@ -5,11 +5,11 @@ export function Oferta(){
     return(
         <>
         <div className={styles.Container}>
-            <h1>CONFIRA NOSSAS OFERTAS</h1>
+        <img src={"/assets/ofertas.png"} alt="" />
             <div className={styles.content}>
-                <Link href={'/irati'}>IRATÍ</Link>
-                <Link href={'/pg'}>PONTA GROSSA</Link>
-                <Link href={'/sms'}>SÃO MATEUS DO SUL</Link>
+                <Link href={'/irati'} target='_blank'>IRATÍ</Link>
+                <Link href={'/pg'} target='_blank'>PONTA GROSSA</Link>
+                <Link href={'/sms'} target='_blank'>SÃO MATEUS DO SUL</Link>
             </div>
         </div>
         </>

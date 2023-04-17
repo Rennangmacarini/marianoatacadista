@@ -30,6 +30,7 @@ export function Irati({ irati }: PostProps) {
             <h1>{post.iratititle}</h1>
             </div>
         ))}
+        <img src={"/assets/arraste.png"} alt="" />
       </div>
 
       <div className={styles.carousel}>
